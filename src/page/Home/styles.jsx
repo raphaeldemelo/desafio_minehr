@@ -39,3 +39,11 @@ export const Button = styled.button`
 export const Text = styled.strong`
   color: var(--color-gray);
 `
+
+export const Content = styled.div`
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+`

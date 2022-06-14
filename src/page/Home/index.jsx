@@ -6,7 +6,8 @@ import {
   Title,
   Subtitle,
   Button,
-  Text
+  Text,
+  Content
 } from './styles'
 
 export default function Home () {
@@ -25,6 +26,8 @@ export default function Home () {
           <Text>Filtrar</Text>
         </Button>
       </SectionTitle>
+
+      <Content></Content>
     </Container>
   )
 }
