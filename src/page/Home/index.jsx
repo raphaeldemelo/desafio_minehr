@@ -10,6 +10,8 @@ import {
   Content
 } from './styles'
 
+import CardBar from '../../components/CardBar'
+
 export default function Home () {
   return (
     <Container>
@@ -27,7 +29,9 @@ export default function Home () {
         </Button>
       </SectionTitle>
 
-      <Content></Content>
+      <Content>
+        <CardBar />
+      </Content>
     </Container>
   )
 }
