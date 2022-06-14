@@ -1,5 +1,9 @@
-import { Container } from './styles'
+import { Container, Header } from './styles'
 
-export default function App () {
-  return <Container></Container>
+export default function Home () {
+  return (
+    <Container>
+      <Header />
+    </Container>
+  )
 }
