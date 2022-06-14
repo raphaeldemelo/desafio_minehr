@@ -15,6 +15,10 @@ export const SectionTitle = styled.section`
   align-items: center;
   justify-content: space-between;
   padding: 40px;
+
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
 `
 export const Title = styled.h1`
   color: var(--color-white);
