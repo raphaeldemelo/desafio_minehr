@@ -14,7 +14,7 @@ export const SectionTitle = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 28px;
+  padding: 40px;
 `
 export const Title = styled.h1`
   color: var(--color-white);
