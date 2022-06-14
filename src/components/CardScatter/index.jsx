@@ -1,6 +1,6 @@
 import ApexCharts from 'react-apexcharts'
 import { useState } from 'react'
-import { AiFillInfoCircle } from 'react-icons/ai'
+import { IoInformationCircleSharp } from 'react-icons/io5'
 
 import { Container, Header, Title } from './styles'
 
@@ -157,7 +157,7 @@ export default function CardScatter () {
     <Container>
       <Header>
         <Title>Scatter</Title>
-        <AiFillInfoCircle size={13} color='#19D7AA' />
+        <IoInformationCircleSharp size={13} color='#19D7AA' />
       </Header>
 
       <ApexCharts
