@@ -5,3 +5,8 @@ export const Container = styled.div`
   width: 100%;
   flex-direction: column;
 `
+export const Header = styled.header`
+  background-color: var(--color-green);
+  display: flex;
+  height: 91px;
+`
