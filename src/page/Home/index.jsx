@@ -11,6 +11,7 @@ import {
 } from './styles'
 
 import CardBar from '../../components/CardBar'
+import CardScatter from '../../components/CardScatter'
 
 export default function Home () {
   return (
@@ -31,6 +32,7 @@ export default function Home () {
 
       <Content>
         <CardBar />
+        <CardScatter />
       </Content>
     </Container>
   )
